@@ -21,6 +21,10 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.22.1",
+    "simple-git": "^1.92.0",
     "site-middle-layer": "^1.0.2"
   },
   "devDependencies": {

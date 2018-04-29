@@ -1,3 +1,5 @@
+import path from 'path';
+
 /**
  * mongodb配置
  * @type {Object}
@@ -15,3 +17,5 @@ export const MONGO = {
         }
     }
 };
+
+export const projectDir = path.join(__dirname, '../../client/public');
