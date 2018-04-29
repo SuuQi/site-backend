@@ -1,0 +1,29 @@
+{
+  "name": "site-backend",
+  "version": "1.0.0",
+  "description": "前后端分离中间层",
+  "main": "index.js",
+  "repository": "ssh://git@github.com:SuuQi/site-backend.git",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "server:test": "pm2 start test-process.json",
+    "server:prod": "pm2 start production-process.json"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "activity"
+  ],
+  "author": "15957136119@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "site-middle-layer": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
