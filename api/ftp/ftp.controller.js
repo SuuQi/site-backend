@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import Ftp from './ftp.model';
-import { conncetFtp } from 'service/ftp';
+import { conncetFtp } from '../../service/ftp';
 
 // 获取列表
 export async function list (ctx) {
