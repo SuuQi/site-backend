@@ -7,4 +7,9 @@ const router = new Router();
 router.use('/api/publish', Publish.routes(), Publish.allowedMethods());
 router.use('/api/ftp', Ftp.routes(), Ftp.allowedMethods());
 
+router.post('/api/git', async function (ctx) {
+    ctx.body = ctx.request;
+    console.log(ctx.request.fields);
+})
+
 export default router;
